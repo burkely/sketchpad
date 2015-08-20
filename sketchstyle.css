@@ -1,4 +1,25 @@
+body, html {
+	cursor: default;
+	font-size:0;
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
 
 #sketchpad{
+	width:400px;
+	height:400px;
 
+	position:absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	margin:auto;
+	/*background-color:#FF1188;*/
+}
+
+.gridOn{
+	background-color:#CCCCCC;
+	display:inline-block;
+	vertical-align:middle;
+	opacity: 0.6;
 }
